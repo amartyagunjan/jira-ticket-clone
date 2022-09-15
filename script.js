@@ -227,7 +227,8 @@ function setModalToDefault() {
     modalBoxTextArea.value = "";
     addBtn.style.backgroundColor = "lightseagreen";
     addBtn.style.backgroundColor = "lightseagreen";
-    addFlag = false;modalBox.style.display = "none";
+    addFlag = false;
+    modalBox.style.display = "none";
     allPriorityColors.forEach((colorsElem, idx) => {
         if(!colorsElem.classList.contains("black")){
             colorsElem.classList.remove("border");
