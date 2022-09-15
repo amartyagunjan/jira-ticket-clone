@@ -49,6 +49,7 @@ body{
     /* margin: 0.5px; */
     font-size: 2rem;
     color: #ecf0f1;
+    border-radius: 3px;
 }
 
 
@@ -90,7 +91,7 @@ body{
     position: absolute;
     top: calc((100vh - 50vh)/2);
     left: calc((100vw - 40vw)/2);
-    display: flex;
+    display: none;
     border-radius: 3px;
     padding: 3px;
     /* justify-content: flex-start; */
@@ -130,4 +131,50 @@ textArea{
     height: 15%;
     width: 40%;
     border-radius: 3px;
+}
+
+.border{
+    border: 3px solid white;
+}
+
+.ticket-box{
+    height: 12rem;
+    width: 16rem;
+    background-color: lightgrey;
+    border-radius: 3px;
+}
+
+.ticket-color{
+    height: 1rem;
+    border-radius: 3px;
+}
+
+.ticket-id{
+    height: 1.5rem;
+    background-color: lightgrey;
+    padding: 0.3rem;
+}
+
+.ticket-content{
+    height: calc(100% - 1rem - 1.5rem - 2rem);
+    padding: 0.5rem;
+    outline:  none;
+}
+
+.lock-icon-box{
+    height: 2rem;
+    padding-right: 0.5rem;
+    font-size: 1.3rem;
+    color: lightseagreen;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 2rem;
+    justify-content: center;
 }
